@@ -3,20 +3,22 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
-  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
-  position: fixed;
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
+  height: 7%;
   box-sizing: border-box;
 }
 
@@ -39,21 +41,22 @@ body {
 .links li a.active {
   color: #000;
 }
-
+/*
 .sections {
   padding-top: 50px;
 }
+*/
 
 section {
-  height: 100vh;
-  background: #103e44;
-  padding-left: 30px;
-  padding-top: 20px;
+  height: 93%;
+  background: #0d2341;
   text-align: center;
   color: #fff;
 }
 
+/*
 section:nth-child(even) {
   background: #e3fcff;
   color: #000;
 }
+*/
